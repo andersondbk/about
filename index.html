@@ -14,118 +14,117 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <style>
-         /* Box-sizing border-box for all elements */
-         *, *:before, *:after {
+        /* Box-sizing border-box for all elements */
+        *, *:before, *:after {
             box-sizing: border-box;
             -webkit-box-sizing: border-box; /* Older iOS and Safari */
             -moz-box-sizing: border-box; /* Older Firefox */
         }
-        
-        
         
         /* Custom styles */
         body {
             margin: 0;
             padding: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Cross-platform font-family */
-            /* ... other custom styles ... */
-        }
-
-        body {
             background-color: black;
             color: white;
         }
+        
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
         body {
             font-family: 'Montserrat', sans-serif;
         }
+        
         .blue-text.text-lighten-1 {
             color: #42a5f5 !important;
         }
+        
         .section {
             padding-top: 50px;
             padding-bottom: 50px;
         }
+        
         .circle {
-        border-radius: 50%;
-        max-width: 10%
+            border-radius: 50%;
+            max-width: 10%
         }
-        .cardtitle{
+        
+        .cardtitle {
             font-weight: 500 !important;
-            
-
         }
-        .nav-wrapper a{
+        
+        .nav-wrapper a {
             font-weight: 500;
         }
-.nav-wrapper a:hover {
-    color: #42a5f5 !important; 
-    
-}
-.card-content a{
-    font-weight: 500;
-}
- .card-content a:hover{
-   color: white
- }
-    .fade-in-section {
-    opacity: 0;
-    transform: translateY(40px);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s;
-}
+        
+        .nav-wrapper a:hover {
+            color: #42a5f5 !important; 
+        }
+        
+        .card-content a {
+            font-weight: 500;
+        }
+        
+        .card-content a:hover {
+            color: white;
+        }
+        
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(40px);
+            visibility: hidden;
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s;
+        }
 
-.fade-in-section.is-visible {
-    opacity: 1;
-    transform: translateY(0);
-    visibility: visible;
-}
-.parallax-container {
-  height: 350px; 
-}
-
-
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+        
+        .parallax-container {
+            height: 350px; 
+        }
     </style>
 </head>
 <body>
-<!-- Navbar -->
-<div class="navbar-fixed">
-    <nav class="black">
-        <div class="nav-wrapper" style="padding:1%">
-            <a href="https://www.linkedin.com/in/andersondbk/" class=" right white-text" style="margin-right: 2%;">Contact</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text text-lighten-1">menu</i></a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="#landing" class="white-text">Home</a></li>
-                <li><a href="#about-me" class="white-text">About Me</a></li>
-                <li><a href="#interests" class="white-text">Interests</a></li>
-                <li><a href="#portfolio" class="white-text">Portfolio</a></li>
-                <li><a href="#testimonials" class="white-text">Testimonials</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<!-- Sidenav -->
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="#landing">Home</a></li>
-    <li><a href="#about-me">About Me</a></li>
-    <li><a href="#interests">Interests</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#testimonials">Testimonials</a></li>
-    <li><a href="https://www.linkedin.com/in/andersondbk/" >Contact</a></li>
-  </ul>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="nav-wrapper" style="padding:1%">
+                <a href="https://www.linkedin.com/in/andersondbk/" class=" right white-text" style="margin-right: 2%;">Contact</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text text-lighten-1">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#landing" class="white-text">Home</a></li>
+                    <li><a href="#about-me" class="white-text">About Me</a></li>
+                    <li><a href="#interests" class="white-text">Interests</a></li>
+                    <li><a href="#portfolio" class="white-text">Portfolio</a></li>
+                    <li><a href="#testimonials" class="white-text">Testimonials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="https://www.linkedin.com/in/andersondbk/" >Contact</a></li>
+    </ul>
 
-
-<div class="section center" id="landing">
-    <img src="profile-pic.png" alt="Daniel Anderson" class="circle responsive-img" style="border: 3px solid #42a5f5; height:250px; width: 250px" >
-    <h1 class="blue-text text-lighten-1">DANIEL ANDERSON</h1>
-    <p>Professional Portfolio</p>
-</div>
+    <div class="section center" id="landing">
+        <img src="profile-pic.png" alt="Daniel Anderson" class="circle responsive-img" style="border: 3px solid #42a5f5; height:250px; width: 250px" >
+        <h1 class="blue-text text-lighten-1">DANIEL ANDERSON</h1>
+        <p>Professional Portfolio</p>
+    </div>
 
     <div class="section center " id="about-me">
         <h2 class="blue-text text-lighten-1 fade-in-section">Who Am I?</h2>
@@ -172,10 +171,8 @@
                 </div>
             </div>
         </div>
-        
+    </div>
     
-    
-
     <div class="section center fade-in-section" id="interests">
         <h2 class="blue-text text-lighten-1 fade-in-section">My Professional Interests</h2>
         <div class="row fade-in-section">
@@ -201,7 +198,7 @@
                 <div class="card black">
                     <div class="card-content white-text">
                         <span class="card-title cardtitle">Product Owner & Business Strategy</span>
-                        <p>Having an entrepreneurial background and experience working on programming projects, lead generation, providing outsourced CFO as a service, leadership,  and experience with turnaround scenarios & pivots—I feel well equipped to own responsibility for a product and drive the growth of a start-up venture.</p>
+                        <p>Having an entrepreneurial background and experience working on programming projects, lead generation, providing outsourced CFO as a service, leadership, and experience with turnaround scenarios & pivots—I feel well equipped to own responsibility for a product and drive the growth of a start-up venture.</p>
                     </div>
                 </div>
             </div>
@@ -209,13 +206,12 @@
                 <div class="card black">
                     <div class="card-content white-text">
                         <span class="card-title cardtitle">Asset & Risk Management</span>
-                        <p>My education is largely centred around economics, finance—coupled with experience working on small scale investment banking projects, research, financial modelling, due diligience, and programming skills - I feel prepared to take on a variety roles in capital markets & investment management.</p>
+                        <p>My education is largely centred around economics, finance—coupled with experience working on small scale investment banking projects, research, financial modelling, due diligence, and programming skills - I feel prepared to take on a variety roles in capital markets & investment management.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
     <div class="section center fade-in-section" id="portfolio">
         <h2 class="blue-text text-lighten-1 fade-in-section">What I've Created Recently</h2>
@@ -265,123 +261,121 @@
                 </div>
             </div>
         </div>
-        <div class="section center" id="testimonials">
-            <h2 class="blue-text text-lighten-1">What People Say About Me</h2>
-            <div class="row">
-                <!-- Testimonial 1 -->
-                <div class="col s12 m4">
-                    <div class="card black">
-                        <div class="card-content white-text">
-                            <img src="sven.jpg" alt="Profile Picture 1" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
-                            <span class="card-title" style="font-weight: 500;">Sven Roering</span>
-                            <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">Direct & Co-Founder, Dias Advisors</p>
-                            <p>"I have worked with Daniel for close to 1 year. During this time he worked on a wide variety of projects, where he was responsible for delivering many outcomes, including but not limited to: valuations of private companies, structuring debt and equity transactions, building data analytics reports for operational enhancements, and transaction due diligence. He also added value to sales and marketing activities with his extensive knowledge of digital marketing activities. I have always found Daniel to be an extremely disciplined individual, who excels in a team environment and works hard to rally other members around working towards the big picture and operating with purpose."</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial 2 -->
-                <div class="col s12 m4">
-                    <div class="card black">
-                        <div class="card-content white-text">
-                            <img src="Ben.jpg" alt="Profile Picture 2" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
-                            <span class="card-title" style="font-weight: 500;">Benrico Smit</span>
-                            <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">CEO, Dias Advisors</p>
-                            <p>"I had the privilege of working with Daniel at DIAS as a Senior Associate, where his expertise and leadership significantly boosted our team's efficiency. Daniel stands out for his strategic problem-solving and exceptional technical skills, especially in financial analysis. He is not only technically proficient but also a positive force, uplifting team morale with his enthusiastic approach.
+    </div>
 
-                                Daniel's mentorship of junior colleagues and his natural leadership qualities set him apart. His contribution to our projects showcased his ability to drive success. Daniel's blend of technical acumen and leadership would be a tremendous asset to any team. I highly recommend him."</p>
-                        </div>
+    <div class="section center" id="testimonials">
+        <h2 class="blue-text text-lighten-1">What People Say About Me</h2>
+        <div class="row">
+            <!-- Testimonial 1 -->
+            <div class="col s12 m4">
+                <div class="card black">
+                    <div class="card-content white-text">
+                        <img src="sven.jpg" alt="Profile Picture 1" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
+                        <span class="card-title" style="font-weight: 500;">Sven Roering</span>
+                        <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">Director & Co-Founder, Dias Advisors</p>
+                        <p>"I have worked with Daniel for close to 1 year. During this time he worked on a wide variety of projects, where he was responsible for delivering many outcomes, including but not limited to: valuations of private companies, structuring debt and equity transactions, building data analytics reports for operational enhancements, and transaction due diligence. He also added value to sales and marketing activities with his extensive knowledge of digital marketing activities. I have always found Daniel to be an extremely disciplined individual, who excels in a team environment and works hard to rally other members around working towards the big picture and operating with purpose."</p>
                     </div>
                 </div>
-                <!-- Testimonial 3 -->
-                <div class="col s12 m4">
-                    <div class="card black">
-                        <div class="card-content white-text">
-                            <img src="Steve.jpg" alt="Profile Picture 3" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
-                            <span class="card-title " style="font-weight: 500;">Steve Van Der Westhuizen</span>
-                            <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">Head of Market Research, GetSmarter (Now 2U) </p>
-                            <p>"Dan joined my team earlier this year and immediately added value. He helped us set up alot of the processes and daily operational and data monitoring activities we focused on. Dan was always keen to learn more, but perhaps his greatest asset is his character and integrity. I would not hesitate to recommend Dan in whatever future roles he pursued."</p>
-                        </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="col s12 m4">
+                <div class="card black">
+                    <div class="card-content white-text">
+                        <img src="Ben.jpg" alt="Profile Picture 2" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
+                        <span class="card-title" style="font-weight: 500;">Benrico Smit</span>
+                        <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">CEO, Dias Advisors</p>
+                        <p>"I had the privilege of working with Daniel at DIAS as a Senior Associate, where his expertise and leadership significantly boosted our team's efficiency. Daniel stands out for his strategic problem-solving and exceptional technical skills, especially in financial analysis. He is not only technically proficient but also a positive force, uplifting team morale with his enthusiastic approach. Daniel's mentorship of junior colleagues and his natural leadership qualities set him apart. His contribution to our projects showcased his ability to drive success. Daniel's blend of technical acumen and leadership would be a tremendous asset to any team. I highly recommend him."</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="col s12 m4">
+                <div class="card black">
+                    <div class="card-content white-text">
+                        <img src="Steve.jpg" alt="Profile Picture 3" class="circle responsive-img" style="width: 150px; height: auto; margin: 0 auto; display: block;border: 3px solid #42a5f5;">
+                        <span class="card-title" style="font-weight: 500;">Steve Van Der Westhuizen</span>
+                        <p class="subtitle blue-text text-lighten-1" style="font-weight: 500;">Head of Market Research, GetSmarter (Now 2U)</p>
+                        <p>"Dan joined my team earlier this year and immediately added value. He helped us set up a lot of the processes and daily operational and data monitoring activities we focused on. Dan was always keen to learn more, but perhaps his greatest asset is his character and integrity. I would not hesitate to recommend Dan in whatever future roles he pursued."</p>
                     </div>
                 </div>
             </div>
         </div>
-        
- 
+    </div>
+    
     <!-- LinkedIn Button at the bottom -->
-<div class="section center fade-in-section">
-    <h2 class="blue-text text-lighten-1 fade-in-section">I'd Love to Chat</h2>
-    <a href="https://www.linkedin.com/in/andersondbk/" target="_blank" class="btn blue lighten-1">Connect on LinkedIn</a>
-</div>
-<a href="#!" class="blue-text text-lighten-1" id="back-to-top">
-    <i class="material-icons">arrow_upward</i>
-    <p class="blue-text text-lighten-1" style="font-weight: 500;">Top</p>
-</a>
+    <div class="section center fade-in-section">
+        <h2 class="blue-text text-lighten-1 fade-in-section">I'd Love to Chat</h2>
+        <a href="https://www.linkedin.com/in/andersondbk/" target="_blank" class="btn blue lighten-1">Connect on LinkedIn</a>
+    </div>
+    <a href="#!" class="blue-text text-lighten-1" id="back-to-top">
+        <i class="material-icons">arrow_upward</i>
+        <p class="blue-text text-lighten-1" style="font-weight: 500;">Top</p>
+    </a>
 
-<script>
-    // Get the button
-    var mybutton = document.getElementById("back-to-top");
+    <script>
+        // Get the button
+        var mybutton = document.getElementById("back-to-top");
 
-    // When the user clicks on the button, scroll to the top of the document
-    mybutton.onclick = function() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-</script>
-<script>
-    // Detect request animation frame
-    var scroll = window.requestAnimationFrame ||
-                 // IE Fallback
-                 function(callback){ window.setTimeout(callback, 1000/60)};
-    var elementsToShow = document.querySelectorAll('.fade-in-section');
-    
-    function loop() {
-    
-        Array.prototype.forEach.call(elementsToShow, function(element){
-          if (isElementInViewport(element)) {
-            element.classList.add('is-visible');
-          } else {
-            element.classList.remove('is-visible');
-          }
-        });
-    
-        scroll(loop);
-    }
-    
-    // Call the loop for the first time
-    loop();
-    
-    // Helper function from: http://stackoverflow.com/a/7557433/274826
-    function isElementInViewport(el) {
-        // special bonus for those using jQuery
-        if (typeof jQuery === "function" && el instanceof jQuery) {
-          el = el[0];
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-        var rect = el.getBoundingClientRect();
-        return (
-            (rect.top <= 0
-                && rect.bottom >= 0)
-            ||
-            (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-            ||
-            (rect.top >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
-        );
-    }
+    </script>
+    <script>
+        // Detect request animation frame
+        var scroll = window.requestAnimationFrame ||
+                     // IE Fallback
+                     function(callback){ window.setTimeout(callback, 1000/60)};
+        var elementsToShow = document.querySelectorAll('.fade-in-section');
+        
+        function loop() {
+        
+            Array.prototype.forEach.call(elementsToShow, function(element){
+              if (isElementInViewport(element)) {
+                element.classList.add('is-visible');
+              } else {
+                element.classList.remove('is-visible');
+              }
+            });
+        
+            scroll(loop);
+        }
+        
+        // Call the loop for the first time
+        loop();
+        
+        // Helper function from: http://stackoverflow.com/a/7557433/274826
+        function isElementInViewport(el) {
+            // special bonus for those using jQuery
+            if (typeof jQuery === "function" && el instanceof jQuery) {
+              el = el[0];
+            }
+            var rect = el.getBoundingClientRect();
+            return (
+                (rect.top <= 0
+                    && rect.bottom >= 0)
+                ||
+                (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+                ||
+                (rect.top >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+            );
+        }
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.parallax');
           var instances = M.Parallax.init(elems);
         });
-      </script>
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.sidenav');
           var instances = M.Sidenav.init(elems);
         });
-        </script>
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
 </body>
 </html>
